@@ -1,0 +1,61 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical" >
+
+    <LinearLayout
+        android:id="@+id/linearLayout2"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical" >
+
+        <EditText
+            android:id="@+id/txtNombreCoordenadaEditar"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:hint="@string/nuevoNombre" >
+
+            <requestFocus />
+        </EditText>
+
+        <LinearLayout
+            android:id="@+id/linearLayout1"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content" >
+
+            <EditText
+                android:id="@+id/tXEditar"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:hint="@string/nx"
+                android:inputType="numberSigned" />
+
+            <EditText
+                android:id="@+id/tYEditar"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:hint="@string/ny"
+                android:inputType="numberSigned" />
+
+            <EditText
+                android:id="@+id/tZEditar"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:hint="@string/nz"
+                android:inputType="numberSigned" />
+
+        </LinearLayout>
+
+        <Button
+            android:id="@+id/btnEditarCoordenada"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="@string/actCoordenada" />
+
+    </LinearLayout>
+
+</LinearLayout>

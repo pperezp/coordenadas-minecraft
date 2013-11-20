@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <string name="hello">Hello World, MainActivity!</string>
+    <string name="app_name">CoordenadasMine</string>
+    <string name="crearMapa">Crear Mapa</string>
+    <string name="x">x</string>
+    <string name="y">y</string>
+    <string name="z">z</string>
+    <string name="crearCoordenada">Crear coordenada</string>
+    <string name="nombreCoordenada">Nombre coordenada</string>
+    <string name="editar">Editar</string>
+    <string name="eliminar">Eliminar</string>
+    <string name="actCoordenada">Actualizar coordenada</string>
+    <string name="nuevoNombre">Nuevo nombre</string>
+    <string name="nx">Nuevo X</string>
+    <string name="ny">Nuevo Y</string>
+    <string name="nz">Nuevo Z</string>
+
+</resources>
